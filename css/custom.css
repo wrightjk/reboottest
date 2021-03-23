@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+/* color codes
+gold: #DBAA00;
+green: #266141;
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px; 
+	margin-top: 5em;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #266141;
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+.container-center-vertical,
+      .container-center-horizontal {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+.sizing {
+  background-color: var(--white);
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.right-side {
+	background-color: #266141;
+}
+
+.btn {
+	outline: none;
+	box-shadow: none;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.btn-prim {
+	outline-color: #DBAA00 !important;
+	box-shadow: none !important;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	background-color: #DBAA00;
+	width: 200px;
+}
+
+.btn-prim:hover {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	background-color: #DBAA00;
+	text-decoration: none;
+	color: white;
+}
+
+.btn-prim:active, .btn-prim:visited, .btn-prim:focus {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	background-color: #DBAA00;
+	color: white;
+}
+
+.btn-secondary, .btn-secondary:active, .btn-secondary:hover, .btn-secondary:visited, .btn-secondary:focus {
+	outline-color: #DBAA00 !important;
+	box-shadow: none !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	background-color: #266141;
+	width: 200px;
+	margin-bottom: 3em;
+}
+
+
+.btn-outline-primary {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	outline-color: white;
+	width: 200px;
+}
+
+.btn-outline-secondary {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px; 
+	color: #266141;
+	outline-color: #266141;
+}
+
+.employee-border {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.border-green-pea {
+  border: 1px solid var(--green-pea);
+}
+
+.green-header {
+	background-color: #266141;
+}
+
+.center {
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+
+.trajan {
+	font-family: trajan-pro-3, serif;
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	margin-top: 70px;
+}
+
+.trajan2 {
+	font-family: trajan-pro-3, serif;
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	color: #266141;
+	margin-top: 70px;
+}
+
+.name {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-top: 35px;
+	color: white;
+}
+
+.search {
+	margin-top: 35px;
+	margin-left: 37em;
+}
+
+.message {
+	margin-top: 35px;
+	margin-left: 1em;
+}
+
+.notifIcon {
+	margin-top: 35px;
+	margin-left: 1em;
+}
+
+.invdash {
+	background-color: #266141;
+}
+
+.invDash2 {
+	background-color: #DBAA00;
+}
+
+.dashLabel, .dashLabel:hover {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-left: 35px;
+}
+
+.dashDesc {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding-top: 25px;
+	padding-left: 45px;
+}
+
